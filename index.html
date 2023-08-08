@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        nav{
+            width: 100%;
+            height: 100px; 
+            color: white;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+
+        }
+        header{
+            font-family: sans-serif;
+            height: 100vh;
+            width: 100% ; 
+            background: url('images2.jpg');
+            background-size: cover;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo{
+            font-size: 2em;
+            letter-spacing: 2px;
+            align-items: left;
+            padding: 0px;
+        }
+        .menu a{
+            text-decoration: none;
+            color:black;
+            padding: 10px 20px;
+            font-size: 20px;
+        
+
+    
+
+        }
+        .menu a:before{
+            content:'';
+            position: absolute;
+            top:0;
+            left:0;
+            width: 0%;
+            height:100%;
+            border-bottom:2px solid indianred;
+            transition:0.4s linear;
+        }
+        .menu a:hover:before{
+            width: 90%;
+
+        }
+        .Register a{
+            text-decoration: none;
+            color:black;
+            padding: 10px 20px;
+            font-size: 20px;
+            background: indianred;
+            border-radius: 8px; 
+            transition:0.4s;
+            padding:10px;
+            text-align: right;
+
+
+        }
+        .Register {
+            /* margin-right: auto; */
+            display: inline-block;
+            padding: 10px;
+            text-align: right;
+            margin-left: 200px;
+        }
+        .Register a:hover{
+            background: transparent;
+            border: 1px solid indianred;
+            align-items: end;
+
+        }
+        /* section{
+            padding: 2rem 9%;
+        } */
+
+        .h-txt{
+            max-width: 650px;
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            padding: 2rem 9%;
+            transform: translate(-50%,-50%);
+            text-align:center;
+            color: black;
+        }
+
+        .h-txt span{
+            text-align: left;
+            
+            letter-spacing: 5px;
+            
+
+        }
+        .h-txt h1{
+
+            font-size: 3.5em;
+        }
+        .h-txt a{
+            text-decoration: none;
+            background:indianred;
+            color: black;
+            padding: 10px 20px;
+            letter-spacing: 5px;
+        }
+
+    </style>
+</head>
+<body style="background-color: black;"> 
+    </div>
+    <div class = "box"></div>
+    <header>
+        <nav>
+            <div class = "logo">
+                FASHION
+                </div>
+                <div class="menu">
+                 <a href="#">Home</a>
+                  <a href="#">Makeup</a>
+                 <a fref="#">Our project</a> 
+                  <a href="#">Contacts</a> 
+                <div class="Register">
+                    <a href="#">Register</a>
+                </div>
+
+            </div>
+        </nav>
+         <section class="h-txt" >
+           <span><b>WELCOME</b></span>
+            <h1>To my fashion blog</h1>
+            <br>
+            <a href="#">Book your appointment with us</a>
+        </section>
+    </header>
+
+</body>
+</html>
